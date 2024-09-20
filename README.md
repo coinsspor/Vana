@@ -56,6 +56,9 @@ sudo apt install python3.11 python3.11-venv python3.11-dev
 ### 💻 Python 3.11 ile Poetry'yi kullan
 ```
 poetry env use python3.11
+```
+Not: çalışmassa önce apt apt install python3-poetry sonra --fix-broken install sonra apt install python3-poetry sonra yukardaki kodu dene
+```
 poetry install
 poetry run python --version
 poetry check
