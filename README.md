@@ -26,7 +26,7 @@ sudo apt update && sudo apt upgrade -y
 
 ### 💻 Gerekli Paketleri Yükleme
 ```
-sudo apt install -y curl gnupg
+sudo apt install -y curl gnupg software-properties-common
 ```
 
 ### 💻 Node.js ve npm Kurulumu
