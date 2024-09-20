@@ -293,7 +293,7 @@ nano .env
 🚧 Nano'nun içinde yukarıda belirttiğim 5 yeri değiştireceğiz..
 
 ![image](https://github.com/user-attachments/assets/9b278992-66e8-48bb-868a-2ff00352556c)
-
+```
 DLP_CONTRACT_ADDRESS=0xaYOURDLPADDRESS
 
 DLP_SATORI_CONTRACT=0xaYOURDLPADDRESS
@@ -303,8 +303,8 @@ DLP_TOKEN_VANA_CONTRACT=0x6381YOURDLPTOKEN-ADDRESS
 DLP_TOKEN_SATORI_CONTRACT=0x6381YOURDLPTOKEN-ADDRESS
 
 PRIVATE_FILE_ENCRYPTION_PUBLIC_KEY_BASE64=YOUR PUBLIC_KEYBASE64
-
-
+```
+```
 DLP_CONTRACT_ADDRESS=0xaYOURDLPADDRESS  ( Buraya Token Deploy Ederken Aldığımız Yedeklerden DataLiquidityPool çıktısını yazacağız )
 
 DLP_SATORI_CONTRACT=0xaYOURDLPADDRESS         ( Buraya Token Deploy Ederken Aldığımız Yedeklerden DataLiquidityPool çıktısını yazacağız )
@@ -316,7 +316,7 @@ DLP_TOKEN_SATORI_CONTRACT=0x6381YOURDLPTOKEN-ADDRESS        ( Buraya Token Deplo
 
 
 PRIVATE_FILE_ENCRYPTION_PUBLIC_KEY_BASE64=   ( Buraya yukarıda cat public_key_base64.asc komutuyla almış olduğumuz çıktının tamamını yazacağız.Dikkat edin çok uzun eksik yapıştırmayın )
-
+```
 🚧  Daha sonrasında ise CTRL+X+Y ile kaydedip çıkıyoruz.
 
 ### 💻 Token Transferi yapıyoruz
