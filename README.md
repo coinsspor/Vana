@@ -27,6 +27,10 @@ sudo apt update && sudo apt upgrade -y
 ### 💻 Gerekli Paketleri Yükleme
 ```
 sudo apt install -y curl gnupg software-properties-common
+sudo apt update
+sudo apt install -y build-essential libssl-dev zlib1g-dev libncurses5-dev \
+libncursesw5-dev libreadline-dev libsqlite3-dev libgdbm-dev libdb5.3-dev \
+libbz2-dev libexpat1-dev liblzma-dev tk-dev libffi-dev libmpdec-dev libc6-dev
 ```
 
 ### 💻 Node.js ve npm Kurulumu
